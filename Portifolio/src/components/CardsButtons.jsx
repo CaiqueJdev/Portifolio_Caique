@@ -63,7 +63,7 @@ export const CardTecnologias = ({text}) => {
 export const CardContacts = ({icon,text,title}) => {
     return(
             <div 
-              className="flex items-center justify-center flex-col gap-3 bg-s7 border border-gray-800 hover:border-g0 hover:border rounded-lg transition duration-200 p-5 text-g0 mt-5 w-full md:max-w-[300px]"
+              className="flex items-center justify-center flex-col gap-3 bg-g1 border border-gray-800 hover:border-g0 hover:border rounded-lg transition duration-200 p-5 text-b0 mt-5 w-full md:max-w-[300px] "
               >
                 <div>
                     <i className={icon}>

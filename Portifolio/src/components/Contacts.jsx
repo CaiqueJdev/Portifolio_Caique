@@ -3,7 +3,7 @@ const Contacts = () => {
     return ( 
         <section 
           id="contacts"
-          className="bg-b1"
+          className="bg-b2"
         >
             <div 
               className="max-w-[1280px] m-auto"
