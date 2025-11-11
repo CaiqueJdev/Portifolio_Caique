@@ -1,7 +1,6 @@
-import Sobre from "./Sobre"
+
 import FotoPerfil from "../assets/foto.jpg"
 import { ButtonHero } from "./CardsButtons";
-import ImageCaroucel from "./imagecaroucel";
 const HeroSection = () => {
     const arrayButtos = ["Ver Projetos", "Entre em Contatdo"];
     return ( 
