@@ -1,0 +1,39 @@
+@import "tailwindcss";
+
+
+@theme{   
+    /* Primaria */
+    --color-g0: #10b981; /*cor de destaque, contraste*/
+    --color-g1: #0e9c6d; /*cor de destaque, contraste*/
+    --color-g2: #0a6d4c; /*cor de destaque, contraste*/
+    --color-g3: #064731; /*cor de destaque, contraste*/
+    --color-g4: #032218; /*cor de destaque, contraste*/
+
+    /* Secundaria */
+    --color-s1: #ffffff; /*texto principal*/
+    --color-s2: #d1d5db; /*texto secundario*/
+    --color-s3: #acafb3; /*background principal*/
+    --color-s4: #7b7d80; /*para secoes*/
+    --color-s5: #464749; /*para cards e borders*/
+    --color-s6: #202122; /*para cards e borders*/
+    --color-s7: rgba(0, 0, 0, 0.900); /*bg header*/
+    --color-s8: #010205;
+    --color-b1: #101828;
+
+    /* Paleta SobreMim */
+    --color-m1: #101726; 
+    --color-m2: #223240; 
+    --color-m3: #2c4153; 
+    --color-m4: #29A678; 
+    --color-m5: #15BF81;
+    --color-m6: #C4DDF2; 
+}
+
+body{
+    background-color: #010205;
+    color: white;
+}
+
+.border-g0{
+    border: #10b981 solid 1px ;
+}
